@@ -34,9 +34,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :phoenix_practice, PhoenixPractice.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  adapter: Ecto.Adapters.MySQL,
+  username: "mysql",
+  password: "mysql",
   database: "phoenix_practice_dev",
   hostname: "localhost",
   pool_size: 10
